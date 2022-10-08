@@ -8,6 +8,14 @@ car::car() {
 	o = NULL;
 	pay = NULL;
 }
+car::car(string brand, int plate, float weight, string color) {
+	this->brand = brand;
+	this->plate = plate;
+	this->weight = weight;
+	this->color = color;
+	o = NULL;
+	pay = NULL;
+}
 void car::setBrand(string brand) {
 	this->brand = brand;
 }

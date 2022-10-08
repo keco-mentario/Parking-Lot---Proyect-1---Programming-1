@@ -14,6 +14,7 @@ private:
 	payment** pay;
 public:
 	car();
+	car(string, int, float, string);
 	void setBrand(string);
 	void setPlate(int);
 	void setWeight(float);
